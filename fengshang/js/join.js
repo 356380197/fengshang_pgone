@@ -1,0 +1,12 @@
+$(document).ready(function(){
+				$('.WeChat').mouseover(function(){
+					$('.keep_out').show();
+					$('.contact_us').hide();
+					$('.WeChat').hide();
+				})
+				$('.img_box').children("b").click(function(){
+					$('.keep_out').hide();
+					$('.contact_us').show();
+					$('.WeChat').show();
+				})
+			})

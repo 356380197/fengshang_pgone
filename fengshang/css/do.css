@@ -1,0 +1,148 @@
+body,span,h1,h2,h3,h4,h5,h6,p,li,a,b,i,input{
+	font-family: "微软雅黑";
+	padding: 0px;
+	margin: 0px;
+	font-weight: normal;
+	text-shadow: none;
+}
+*:focus {outline: none;} 
+a{
+	text-decoration: none;
+}
+div#pageone {
+  background: #fff;
+ /* padding-bottom: 50px;*/
+}
+li{
+	list-style: none;
+}
+nav a {
+  font-size: 13px;
+  color: #aaa;
+}
+nav ul{
+	display: table;
+}
+nav li{
+	display: table-cell;
+	text-align: center;
+}
+.header h1{
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  padding:2px 5px;
+  color: #fff;
+}
+.header{
+  text-align: center;
+border: 1px solid #333;
+ background: url(../img/head_bg.jpg);
+
+}
+.m_content.ui-content {
+  padding: 0px;
+}
+.banner{
+	position: relative;
+}
+.banner img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+nav {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	background: rgba(0,0,0,.5);
+  	padding: 5px 0px;
+
+}
+nav ul {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+nav a.ui-link {
+  color: #aaa;
+  text-shadow: none;
+}
+
+.ui-body-c .ui-link{
+	font-weight: normal;
+	font-size: 13px;
+}
+a#selec{
+  border-bottom: 1px solid #ae9557;
+  padding: 0 2px 3px;
+  color: #fff;
+}
+.tactics{
+		text-align: center;
+		border-bottom:1px solid #959595; ;
+}
+.tactics h1 {
+  display: inline-block;
+  margin: 0px;
+  color: #fff;
+  background: #ae9557;
+  margin: 12px 0px 14px;
+  padding: 0px 5% 0px;
+  font-size: 11px;
+}
+img.img-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+.particular{
+	width: 90%;
+	margin: 0 auto;
+	/*height: 32px;*/
+	background:#ae9557; ;
+}
+
+
+.m_main{
+	margin-top: 20px;
+	text-align: center;
+}
+.m_main>div {
+  margin-bottom: 88px;
+  width: 90%;
+  margin: 0 auto 20px;
+}
+.m_main h1 {
+  color: #ae9557;
+  font-size: 13px;
+  line-height: 18px;
+}
+.m_main p {
+  font-size: 10px;
+  margin: 5px 0;
+  line-height: 15px;
+}
+
+
+.f_footer{
+	width: 100%;
+	background: #000000;
+	text-align: center;
+	position: absolute;
+/*	bottom: 0;*/
+}
+#f_copy{
+	font-size: 12px;
+/*	line-height: 35px;*/
+	color: #a0a0a0;
+	
+}
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+	#f_copy{
+		line-height: 35px;
+	}
+}

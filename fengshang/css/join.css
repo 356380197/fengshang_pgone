@@ -1,0 +1,276 @@
+body,span,h1,h2,h3,h4,h5,h6,p,li,a,b,i,input{
+	font-family: "微软雅黑";
+	padding: 0px;
+	margin: 0px;
+	font-weight: normal;
+	text-shadow: none;
+}
+*:focus {outline: none;} 
+a{
+	text-decoration: none;
+}
+div#pageone {
+  background: #fff;
+  padding-bottom: 50px;
+}
+li{
+	list-style: none;
+}
+nav a.ui-link {
+  font-size: 14px;
+}
+nav ul{
+	display: table;
+}
+nav li{
+	display: table-cell;
+	text-align: center;
+}
+.header h1.ui-title {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  padding: 5px;
+}
+.m_content.ui-content {
+  padding: 0px;
+}
+.banner{
+	position: relative;
+}
+.banner img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+nav {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	background: rgba(0,0,0,.5);
+  	padding: 7px 0px;
+
+}
+nav ul {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+nav a.ui-link {
+  color: #aaa;
+  text-shadow: none;
+}
+.ui-body-c .ui-link:visited {
+  color: #aaa;
+}
+.ui-body-c .ui-link{
+	font-weight: normal;
+	font-size: 13px;
+}
+a#selec.ui-link {
+  border-bottom: 1px solid #ae9557;
+  padding: 0 2px 3px;
+  color: #fff;
+}
+.WeChat,.contact_us{
+	width: 20%;
+/*	height: 165px;*/
+	position: absolute;
+	top:40%;
+}
+.WeChat{
+	left: 20%;
+}
+.contact_us{
+	right: 20%;
+}
+.img-responsive{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.keep_out{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	/*background: #000000;
+	filter:alpha(opacity=30);
+	opacity: .3;*/
+	background: rgba(0,0,0,.3);
+	display: none;
+	z-index: 90;
+}
+/*.out_box {
+  width: 30%;
+  height: auto;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -20%;
+  margin-top: -25%;
+  z-index: 100;
+  padding: 10px;
+}*/
+.out_box {
+  width: 30%;
+  height: auto;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -17%;
+  margin-top: -17%;
+  z-index: 100;
+  padding: 5px;
+}
+.img_box {
+  padding: 10px;
+  background: rgba(255,255,255,.4);
+  text-align: center;
+}
+.img_box h1{
+	font-size: 16px;
+	color: #fff;
+}
+.img_box h2{
+	font-size: 14px;
+	color: #fff;
+}
+/*.img_box b {
+  width: 25px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}*/
+.img_box b {
+  width: 15px;
+  height: 15px;
+  display: block;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+.f_main{
+	width: 90%;
+	margin: 0 auto;
+}
+.f_hr {
+
+  border-bottom: 1px solid #000;
+	margin: 20px 0px 10px;
+	padding: 0;
+}
+.f_hr h1{
+	font-weight: normal;
+	font-size: 16px;
+	background: #000;
+	color: #fff;
+	display: inline-block;
+	margin: 0;
+	padding: 2px 8px;
+}
+.f_content {
+  margin: 0 auto;
+  overflow: hidden;
+}
+.f_map{
+	padding: 0;
+}
+.f_address{
+	padding: 0;
+}
+.f_address h1{
+	font-weight: normal;
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+}
+.f_address span {
+	font-size: 12px;
+  display: block;
+}
+select,input,textarea{ 
+	appearance:none; 
+	-moz-appearance:none; 
+	 -webkit-appearance:none;
+	  }
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #000;  
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #000;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #000;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #000;
+}
+input#tel,input#name,input#email {
+  padding: 0px;
+  font-size: 14px;
+  margin: 0px;
+}
+textarea#content{
+	border-radius:0px ;
+}
+
+
+textarea,input[type="tel"],input[type="email"],input[type="text"],input[type="tel"]{
+	  padding: 3px 5px;
+	  height: 40px;
+}
+.top {
+  margin-bottom: 30px;
+}
+input[type="submit"] {
+  width: 234px;
+  height: 40px;
+  border: 0;
+  background-color: #d5d5d5;
+  color: #4b4b4b;
+}
+.ui-input-text.ui-shadow-inset.ui-corner-all.ui-btn-shadow.ui-body-c {
+  border-radius: 0px;
+  /* padding: 0; */
+  /* margin: 0; */
+}
+.div-btn {
+  text-align: center;
+  margin-top: 10px;
+}
+.ui-submit.ui-btn.ui-btn-up-c.ui-shadow.ui-btn-corner-all {
+  border-radius: 0;
+}
+.ui-submit.ui-btn.ui-shadow.ui-btn-corner-all.ui-btn-hover-c {
+  border-radius: 0;
+  border: none;
+}
+.f_footer{
+	width: 100%;
+	background: #000000;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+}
+#f_copy{
+	font-size: 12px;
+/*	line-height: 35px;*/
+	color: #a0a0a0;
+	
+}
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+	#f_copy{
+		line-height: 35px;
+	}
+}

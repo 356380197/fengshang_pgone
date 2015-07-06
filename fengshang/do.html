@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>我们做什么</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/do.css"/>
+		
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		
+		<script src="js/islider.js"></script>
+		<script src="js/plugins/islider_desktop.js"></script>
+	</head>
+	<body>
+		<div data-role="page" id="pageone" class="page">
+	  <div class="header" data-role="header">
+	   		<h1>风 尚 雅 意</h1>
+	  </div>
+	
+	  <div class="m_content" data-role="content">
+	  	<div class="banner">
+	  		<img src="img/banner_01.jpg"/>
+	  		<nav>
+		   		<ul>
+		   			<li><a href="" >关于我们</a></li>
+		   			<li><a href="" id="selec">我们做什么</a></li>
+		   			<li><a href="">成功案例</a></li>
+		   			<li><a href="">加入我们</a></li>
+		   		</ul>
+	   		</nav>
+	  	</div>
+	  	<div class="f_main">
+				<div class="tactics">
+					<h1>店面设计＋会员系统＋结账支付＋运营方案</h1>
+				</div>
+		</div>
+		<!---->
+		<div id="iSlider-effect-wrapper">
+    <div id="animation-effect" class="iSlider-effect"></div>
+</div>
+
+
+<script>
+var picList = [
+{
+	width: 150,
+	height: 325,
+	content: "img/1.png",
+},
+{
+	width: 150,
+	height: 325,
+	content: "img/2.png",
+},
+{
+	width: 150,
+	height:325,
+	content: "img/3.png",
+},
+{
+	width: 150,
+	height: 325,
+	content:"img/4.png"
+},
+{
+	width: 150,
+	height: 325,
+	content:"img/5.png"
+},
+{
+	width: 150,
+	height: 325,
+	content:"img/6.png"
+},
+{
+	width: 300,
+	height: 650,
+	content:"img/7.png"
+},
+{
+	width: 150,
+	height: 325,
+	content:"img/8.png"
+},
+{
+	width: 150,
+	height: 325,
+	content:"img/9.png"
+}
+];
+
+var domList = [
+{
+	'height' : '100%',
+	'width' : '100%',
+	'content' : '<div><h1>Home</h1><h2>This is home page</h2><p>home is pretty awsome</p><div>'
+},{
+	'height' : '100%',
+	'width' : '100%',
+	'content' : '<div><h1>Page1</h1><h2>This is page1</h2><p>page1 is pretty awsome</p><div>'
+},{
+	'height' : '100%',
+	'width' : '100%',
+	'content' : '<div><h1>Page2</h1><h2>This is Page2</h2><p>Page2 is pretty awsome</p><div>'
+},{
+	'height' : '100%',
+	'width' : '100%',
+	'content' : '<div><h1>Page3</h1><h2>This is page3</h2><p>page3 is pretty awsome</p><div>'
+}
+];
+
+//all animation effect
+var islider1 = new iSlider({
+	data: picList,
+	dom: document.getElementById("animation-effect"),
+	duration: 2000,
+	animateType: 'depth',
+	isAutoplay: true,
+	isLooping: true,
+	// isVertical: true, 是否垂直滚动
+});
+islider1.bindMouse();
+
+
+</script>
+		
+		<!---->
+		
+			<div class="particular">
+				<img class="img-responsive" src="img/data.png"/>
+			</div>
+			
+			<div class="m_main">
+				<div class="f_top">
+					<h1>“一键预约；一键下单；一键充值；一键结账；会员一键导入…….”</h1>
+					<p>简约而不简单，轻松完成复杂操作，w完全解放店面前台，让您彻底回归手艺人。高“逼格”的用户体验是我们追求的极致。</p>
+				</div>
+				<div class="f_mid">
+					<h1>店面设计＋会员系统＋结账支付＋运营方案</h1>
+					<p>告别市面上披上一层APP外衣便号称与“互联网＋”接轨的冷冰冰的传统会员管理系统。我们了解美业需求，解决行业痛点，帮您拉新
+					维老，用户三个月使用回馈平均：新会员增长75%，老会员忠诚度提升100%，效益提升80%——市面上最有“温度”的美业一站式平台.</p>
+				</div>
+				<div class="m_bot">
+					<h1>美国硅谷技术团队领衔开发，打通移动互联网实现O2O运营</h1>
+					<p>美国硅谷技术团队领衔开发，真正了解“互联网＋”的本质，彻底为您打通O2O运营，打通移动互联网，让您实际感受到高科技带
+						来的效益。</p>
+				</div>
+			</div>
+	  </div>
+		
+	  <!--<div data-role="footer">
+	    <h1>页面底部内容</h1>
+	  </div>-->
+	  <div class="f_footer">
+				<span id="f_copy">
+						&copy;2006-2013TGVISION风尚雅艺. All Right Reserved. 京ICP备12043438号
+					</span>
+				
+		</div>
+	</div>  
+	</body>
+</html>
